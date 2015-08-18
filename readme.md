@@ -1,4 +1,3 @@
-#### Git is a distributed version control system.
-#### Git is free software distributed under the GPL.
-#### Git has a mutable index called stage.
-#### Git tracks changes.
+#### 脚本记录.
+##### 方便以后查阅.
+##### 检验自己的学习进度.
