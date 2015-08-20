@@ -12,9 +12,9 @@ do
     day_22=`echo $day_11+1 | bc`
     sec_11=`date -d "$day_11 00:00:00" +%s`
     sec_22=`date -d "$day_22 00:00:00" +%s`
-    sql="db.lock_danmaku.find({'date':{'\$gte':$sec_11,'\$lte':$sec_22}}).count()"
-    danma=`echo $sql | mongo danmaku --quiet`
-    echo $day_11":"$danma
+    sql="db.lock_xxxxxx.find({'date':{'\$gte':$sec_11,'\$lte':$sec_22}}).count()"
+    aaaaa=`echo $sql | mongo xxxxxx --quiet`
+    echo $day_11":"$aaaaa
     day_11=`echo $day_11+1 | bc`
 done
 
