@@ -1,1 +1,1 @@
-#### The record of scripts
+#### Record of scripts
